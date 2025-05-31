@@ -1,0 +1,53 @@
+
+/* Basic Brutalist Style */
+
+body {
+    background: white;
+    color: black;
+    font-family: "Courier New", monospace;
+    margin: 40px;
+}
+
+header, footer {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
